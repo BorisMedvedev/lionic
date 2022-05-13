@@ -1,1 +1,19 @@
-.header {}
+.header {
+  padding: 30px 0;
+
+
+  &__nav-item {
+    display: inline-block;
+    margin-right: 30px;
+  }
+
+  &__btn-trial {
+    display: inline-block;
+  }
+}
+
+.logo {
+  &__img {
+    filter: invert(44%) sepia(6%) saturate(5113%) hue-rotate(171deg) brightness(94%) contrast(105%);
+  }
+}
