@@ -3,4 +3,52 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  &__inner {
+    padding: 113px 0 134px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 26px;
+    max-width: 579px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #1c1c1c;
+  }
+
+  &__descr p {
+    max-width: 470px;
+    margin: 0;
+    margin-bottom: 34px;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #787878;
+  }
+
+  &__btn {
+    padding: 19px 60px;
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    position: relative;
+    display: block;
+    padding-left: 68px;
+
+    &::before {
+      position: absolute;
+      left: 48px;
+      display: block;
+      content: '';
+      width: 14px;
+      height: 17px;
+      background-image: url('../../images/sprite.svg#secure');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      filter: invert(50%) sepia(4%) saturate(21%) hue-rotate(323deg) brightness(92%) contrast(83%);
+    }
+  }
 }
