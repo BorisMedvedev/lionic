@@ -1,0 +1,73 @@
+.services {
+  padding: 86px 0 160px;
+
+  &__title {
+    margin-bottom: 21px;
+    text-align: center;
+  }
+
+  &__descr {
+    margin-bottom: 54px;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.services-card {
+  max-width: 270px;
+  border: 1px solid #e4e4e4;
+
+  &__link {
+    padding: 60px 30px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+  }
+
+  &__img {
+    margin-bottom: 27px;
+    display: inline-block;
+    width: 68px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: invert(38%) sepia(92%) saturate(502%) hue-rotate(172deg) brightness(88%) contrast(85%);
+
+    &--what-1 {
+      background-image: url('../../images/sprite.svg#what-1');
+    }
+
+    &--what-2 {
+      width: 86px;
+      height: 64px;
+      background-image: url('../../images/sprite.svg#what-2');
+    }
+
+    &--what-3 {
+      background-image: url('../../images/sprite.svg#what-3');
+    }
+
+    &--what-4 {
+      background-image: url('../../images/sprite.svg#what-4');
+    }
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1c1c1c;
+  }
+
+  &__descr {
+    margin: 0;
+  }
+
+}
